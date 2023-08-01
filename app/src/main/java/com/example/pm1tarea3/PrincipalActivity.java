@@ -200,7 +200,7 @@ public class PrincipalActivity extends AppCompatActivity {
         apellido.setText("");
         genero.setSelection(0);
         fechaNacimiento.setText("");
-        img.setImageBitmap(null);
+        img.setImageResource(getResources().getIdentifier("hombre","drawable", this.getPackageName()));
         nombre.requestFocus();
     }
 
